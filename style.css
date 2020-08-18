@@ -1,0 +1,174 @@
+html {
+    scroll-behavior: smooth;
+  }
+/* nav */
+#home ul{
+    color:#fff;
+    font: 11px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    line-height: 36px;
+    letter-spacing: 0.118em;
+    font-weight: 800;
+    margin-bottom: 100px;
+    padding-right: 30px;
+}
+#home ul, a{
+    color:#f47404;
+}
+
+/* end of nav*/
+
+/* home page */
+#home{
+    background-image: url("img/background.jpg");
+    width:100%;
+    height:800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+#home h1{
+    color:#fff;
+    font-size: 90px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+#home h3{
+    color:#fff;
+    margin: 0 auto;
+    width: 55%;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 2;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+/* small screen devices" */
+@media (max-width: 576px) { 
+    #home h1{
+        font-size: 40px;
+    }
+    #home h3{
+        width:90%;
+        font-size:14px;
+    }
+}
+a i{
+    font-size: 25px;
+}
+/* end of home page */
+
+/* projects page */
+#projects{
+    background-color: #ebeeee;
+    width: 100%;
+    height:1150px;
+    padding-top:60px;
+}
+.content{
+    background-color:#fff;
+}
+.content img{
+    max-width: 100%;
+    height: auto;
+}
+.row{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.col-sm-6{
+    padding-bottom: 30px;
+    margin:auto;
+}
+
+#projects p{
+    text-align:center;
+    font: 15px/24px 'opensans-semibold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color:#95A3A3;
+}
+.modal-content{
+    height: 600px;
+}
+.modal-body{
+    padding:0px
+}
+.modal-body img{
+    max-width: 100%;
+    height: auto;
+}
+.modal-dialog{
+    max-width: 550px;
+}
+.modal-description{
+    font: 14px/24px 'opensans-regular', sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 0.074em;
+}
+#home ul, a:hover {
+    color: #3150c8;
+}
+.carousel-control-next-icon{
+    background-color: black;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+/* small screen devices" */
+@media (max-width: 576px) {
+    .modal-content{
+        height: 500px;
+    }
+    #projects{
+        height: 1800px;
+    }
+
+}
+/* end of projects page */
+
+/* Contact Me page */
+
+#contact{
+    background-color:#2B2B2B;
+    width: 100%;
+    height:600px;
+    padding-top:60px;
+}
+#contact h2{
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color:#fff;
+    margin-bottom: 12px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom:100px;
+}
+#contact p{
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color:#fff;
+    text-align: left;
+    margin:auto;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 200;
+}
+#contact button{
+    background: #444;
+}
+
+#iconUp p{
+    text-align: center;
+    padding-top: 100px;
+}
+/* end contact me page */
